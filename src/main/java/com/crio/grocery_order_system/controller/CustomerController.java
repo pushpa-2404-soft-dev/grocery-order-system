@@ -1,6 +1,10 @@
-package com.crio.grocery.order.system.controller;
+package com.crio.grocery_order_system.controller;
 
-import lombok.*;
+import org.springframework.web.bind.annotation.*;
+import lombok.RequiredArgsConstructor;
+import java.util.List;
+import com.crio.grocery_order_system.entity.Customer;
+import com.crio.grocery_order_system.service.CustomerService;
 
 @RestController
 @RequestMapping("/api/customers")

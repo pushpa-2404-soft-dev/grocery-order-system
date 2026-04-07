@@ -1,4 +1,4 @@
-package com.crio.grocery.order.system.entity;
+package com.crio.grocery_order_system.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -9,12 +9,12 @@ import lombok.*;
 @AllArgsConstructor
 public class Customer {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
 
-    private String name;
-    private String email;
-    private String address;
-    private String phone;
+  private String name;
+  private String email;
+  private String address;
+  private String phone;
 }
